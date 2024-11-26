@@ -74,6 +74,8 @@ class MainActivity : AppCompatActivity() {
                 intent.putExtra("kirimData", data)
                 startActivity(intent)
             }
+            //ch
+
 
             override fun delData(pos: Int) {
                 AlertDialog.Builder(this@MainActivity)
